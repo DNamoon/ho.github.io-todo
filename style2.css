@@ -4,7 +4,7 @@
 
 body {
     /* background-color: bisque; */
-    color: bisque;
+    color: aliceblue;
     text-align: center;
     margin-top: 10%;
 }
@@ -23,4 +23,5 @@ body {
     height: 100%;
     z-index: -1;
     animation: fadeIn 0.5s linear;
+    opacity: 0.8;
 }
