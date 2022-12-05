@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" />
+    <title>Todo List</title>
+</head>
+<body>
+    <form class="hidden" id="login-form"> 
+        <!-- form 안에 input이 있으면 enter를 눌러도 자동으로 submit된다! submit하면 웹사이트는 새로고침된다! -->
+            <input required maxlength="15" type="text" placeholder="What is your name?">
+            <button>Log In</button>
+    </form>
+    <h2 id="clock">00:00:00</h2>
+    <h1 class="hidden" id="greeting"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required>
+    </form>
+    <div>
+        <ul id="todo-list" class="left"></ul>
+    </div>
+    <div id="quote"> 
+        <span></span><br/>
+        <span></span>
+    </div>
+    <hr/>
+    <h1>날씨 알아보기</h1>
+    <div>
+        <input id="city" placeholder="Please write in Eng"></input>
+        <button id="btn_city">도시 입력</button>
+    </div>
+    <br/>
+    <div id="weather">
+        <span></span><br/>
+        <h2><span></span></h2>
+    </div>
+    <script src="loadUsername.js"></script>
+    <script src="final_clock.js"></script>
+    <script src="quotes.js"></script>
+    <script src="background.js"></script>
+    <script src="weather.js"></script>
+    <script src="final.js"></script>
+</body>
+</html>
