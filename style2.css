@@ -23,5 +23,6 @@ body {
     height: 100%;
     z-index: -1;
     animation: fadeIn 0.5s linear;
+    /* 배경화면 연하게 보이게 하기 */
     opacity: 0.8;
 }
